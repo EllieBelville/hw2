@@ -12,13 +12,21 @@ using namespace std;
 
 
 int main(int argc, char const *argv[]) {
-
-double milesTown, milesHighway
-
-cout << "Enter the number of miles driven in town: ";
-cin >> milesTown;
-cout << "Enter the number of miles driven on highway: ";
-cin >> milesHighway;
+    
+    double milesTown, milesHighway
+    
+    cout << "Enter the number of miles driven in town: ";
+    cin >> milesTown;
+    if (milesTown < 0){
+        cout << "Error: number of miles driven in town cannot be negative";
+        exit(0);
+        
+    else{   cout << "Enter the number of miles driven on highway: ";
+            cin >> milesHighway;
+            if (milesHighway < 0){
+                cout << "Error: number of miles driven on highway cannot be negative";
+                exit(0);
+            }
 
     return 0;
 }/// main
