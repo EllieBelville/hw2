@@ -40,7 +40,15 @@ int main(int argc, char const *argv[]) {
                     cout << "No average can be calculated"
                 }
                 else{
-
+                
+                    cout << "--------------- Gas Consumption ---------------";
+                    cout << "The number of miles driven in town: " << milesTown << " miles";
+                    cout << "The gas consumption for town driving: " << consumpTown << " gallons";
+                    cout << "The number of miles driven on highway: " << milesHighway << " miles";
+                    cout << "The gas consumption for highway driving: " << consumpHighway << " gallons";
+                    cout << "The total miles driven: " << milesTotal << "miles";
+                    cout << "The total gas consumption: " << consumpTotal << "gallons";
+                    cout << "The average mpg for the trip: " << avMPG << "miles/gallon";
 
     return 0;
 }/// main
