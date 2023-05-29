@@ -1,8 +1,8 @@
 /**
  *   @file: gas_consumption.cc
- * @author: Enter your name
- *   @date: Enter the date
- *  @brief: Add Description
+ * @author: Ellie Belville
+ *   @date: 5/25/23
+ *  @brief: A program that calculates gas consumption given miles driven.
  */
 
 #include <iostream>
@@ -13,6 +13,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
 
-    /*add code*/
+ 
+ 
     return 0;
 }/// main
