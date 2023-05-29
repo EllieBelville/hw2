@@ -13,7 +13,12 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
 
- 
- 
+double milesTown, milesHighway
+
+cout << "Enter the number of miles driven in town: ";
+cin >> milesTown;
+cout << "Enter the number of miles driven on highway: ";
+cin >> milesHighway;
+
     return 0;
 }/// main
