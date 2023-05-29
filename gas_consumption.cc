@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
     
-    double milesTown, milesHighway
+    double milesTown, milesHighway;
     
     cout << "Enter the number of miles driven in town: ";
     cin >> milesTown;
@@ -37,9 +37,15 @@ int main(int argc, char const *argv[]) {
                     cout << "The gas consumption for highway driving: 0.0 gallons";
                     cout << "The total miles driven: 0.0 miles";
                     cout << "The total gas consumption: 0.0 gallons";
-                    cout << "No average can be calculated"
+                    cout << "No average can be calculated";
                 }
                 else{
+
+                    double consumpTown = milesTown / 22.5;
+                    double consumpHighway = milesHighway / 29.5;
+                    double milesTotal = milesTown + milesHighway;
+                    double consumpTotal = consumpTown + consumpHighway;
+                    double avMPG = milesTotal / consumpTotal;
                 
                     cout << "--------------- Gas Consumption ---------------";
                     cout << "The number of miles driven in town: " << milesTown << " miles";
